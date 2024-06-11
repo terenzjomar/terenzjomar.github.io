@@ -1,3 +1,8 @@
-body {
-	background: green;
+header {
+	background: pink;
+	font-weight: bold;
+}
+
+header > *  > a {
+	text-decoration: none;
 }
