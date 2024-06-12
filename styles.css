@@ -1,3 +1,92 @@
 body {
-	background: green;
+	padding: 0px 175px;
+	font-family: "Roboto";
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 40px 0px;
+}
+
+header > nav {
+	text-align: right;
+}
+
+header > *  > a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header > * > a:hover {
+	text-decoration: underline;
+}
+
+header > nav > #about {
+	font-weight: bold;
+	padding: 14px 48px 14px 0px;
+}
+
+header > nav > #contact {
+	color: white;
+	background: black;
+	padding: 14px 24px;
+	border-radius: 8px;
+}
+
+header > nav > #contact:hover {
+	text-decoration: none;
+}
+
+footer {
+	border-top: solid gray 1px;
+	grid-template-columns: 1fr 1fr;
+	padding: 40px 0px;
+}
+
+footer > *  > a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+footer > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer > #links > * > a {
+	color: #454545;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	margin: 20px 0px;
+}
+
+footer > #links > *  > a:hover {
+	text-decoration: underline;
+}
+
+footer > div > div {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 40px 0px 0px;
+}
+
+footer > #socials {
+	margin-right: 1000px;
+}
+
+footer > #socials > * {
+	display: block;
+}
+
+footer > #socials > #socialIconList {
+	margin: 60px 0px 20px 0px;
+}
+
+footer > #socials > #socialIconList > a > img {
+	width: 48px;
+	height: 48px;
 }
