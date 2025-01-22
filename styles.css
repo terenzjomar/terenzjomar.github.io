@@ -11,12 +11,15 @@ header {
 
 header > nav {
 	text-align: right;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 header > *  > a {
 	color: black;
 	text-decoration: none;
 	font-size: 20px;
+	text-align: center;
 }
 
 header > * > a:hover {
@@ -37,6 +40,7 @@ header > nav > #contact {
 
 header > nav > #contact:hover {
 	text-decoration: none;
+	background: green;
 }
 
 footer {
